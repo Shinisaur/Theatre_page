@@ -1,0 +1,15 @@
+h1, h2 {
+    color: white;
+    background-color: black;
+}
+
+table {
+    border-collapse: collapse;
+    }
+
+tr, th, td {
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    padding: 7px;
+}
