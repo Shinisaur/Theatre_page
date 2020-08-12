@@ -5,8 +5,16 @@
     padding: 0;
 }
 
+:root {
+    --red: #FE1A19;
+    --white: white;
+    --yellow: #E5E000;
+    --bold: bold;
+    --normal: normal;
+}
+
 html {
-    font-size: 10px;
+    font-size: 62.5%;
 }
 
 body {
@@ -21,14 +29,14 @@ body {
 .header, .footer {
     position: relative;
     height: 6rem;
-    background-color: #FE1A19;
+    background-color: var(--red);
 }
 
 h1, .copyright, .back {
     font-family: Helvetica;
     font-size: 2rem;
-    font-weight: bold;
-    color: white;
+    font-weight: var(--bold);
+    color: var(--white);
 }
 
 h1 {
@@ -43,7 +51,8 @@ h1 {
 .column {
     width: 40rem;
     margin: 5.2rem 0;
-    border: 0.5rem solid #E5E000;
+    padding: 3.3rem;
+    border: 0.5rem solid var(--yellow);
     border-radius: 3rem;
     text-align: left;
     font-family: 'Times New Roman';
@@ -56,20 +65,16 @@ h1 {
 }
 
 h2 {
-    margin: 3.3rem 3.3rem 0.8rem;  
+    margin-bottom: 4.1rem;  
     font-family: Helvetica;
     font-size: 2rem;
-    font-weight: bold;
+    font-weight: var(--bold);
 }
 
 h3 {
     font-family: 'Times New Roman';
     font-size: 2rem;
-    font-weight: normal;
-}
-
-.main-text {
-    padding: 3.3rem;
+    font-weight: var(--normal);
 }
 
 .ul-margin {
