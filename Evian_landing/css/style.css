@@ -21,14 +21,10 @@ html {
  }
 
 .header {
-    position: relative;
-    height: 14rem;
-}
-
-.header-container {
     position: fixed;
+    top: 0;
     height: 14rem;
-    width: 144rem;
+    width: inherit;
     background-color: var(--white);
     display: flex;
     align-items: center;
@@ -50,6 +46,8 @@ html {
 .link-container {
     position: absolute;
     right: 5rem;
+    display: flex;
+    align-items: center;
 }
 
 .l1, .l2 {
@@ -58,6 +56,7 @@ html {
 
 .hero {
     height: 95rem;
+    margin: 14rem 0 0 0;
     background-image: url(../img/evian_logo.png);
     display: flex;
     justify-content: center;
@@ -74,7 +73,7 @@ h1 {
 .description {
     display: flex;
     justify-content: center;
-    align-items: center;
+    /*align-items: center;*/
     margin: 15rem 0 15rem 0;
 }
 
@@ -95,7 +94,7 @@ h2, ul {
 .pics {
     display: flex;
     justify-content: center;
-    align-items: center;
+    /*align-items: center;*/
 }
 
 .pics-img {
@@ -116,7 +115,7 @@ h2, ul {
 .about {
     display: flex;
     justify-content: center;
-    align-items: center;
+    /*align-items: center;*/
     margin: 15rem 0 15rem 0;
 }
 
@@ -140,6 +139,7 @@ h2, ul {
 .footer {
     position: relative;
     height: 140px;
+    width: inherit;
     background-color: var(--pink);
     line-height: 5.7rem;
     font-size: 5rem;
