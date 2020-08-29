@@ -15,19 +15,15 @@ html {
     margin: 0;
 }
 
-.page {
-    width: 144rem;
-    margin: 0 auto;
- }
-
 .header {
     position: fixed;
     top: 0;
     height: 14rem;
-    width: 144rem;
+    width: 100%;
     background-color: var(--white);
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .header-text-p, .header-text-l {
@@ -39,12 +35,12 @@ html {
 }
 
 .header-text-p {
-    position: absolute;
-    left: 5rem;
+   position: relative;
+   left: 5rem;
 }
 
 .link-container {
-    position: absolute;
+    position: relative;
     right: 5rem;
     display: flex;
     align-items: center;
@@ -55,9 +51,11 @@ html {
 }
 
 .hero {
-    height: 95rem;
+    height: 130rem;
     margin: 14rem 0 0 0;
     background-image: url(../img/evian_logo.png);
+    background-size: cover;
+    background-position: center center;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -147,6 +145,6 @@ h2, ul {
 } 
 
 .footer-text {
-    position: absolute;
+    position: relative;
     left: 5rem;
 }
