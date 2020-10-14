@@ -1,0 +1,91 @@
+@import url(reset.css);
+
+html {
+    font-size: 62.5%;
+}
+
+.page {
+    line-height: 2.3rem;
+    font-size: 2rem;
+}
+
+.header {
+    height: 16rem;
+    background-color: #FEB700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    height: 16rem;
+    background-color: #FEB700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1, .year, .back {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 5.7rem;
+    font-size: 5rem;
+}
+
+.year {
+    padding-left: 6rem;
+}
+
+.back {
+    padding-right: 6rem;
+    text-decoration: none;
+    color: #000000;
+}
+
+.content {
+    width: calc(100% - 14rem);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 7rem 0 7rem 0;
+}
+
+.column {
+    width: calc((100% - 10rem)/3);
+    height: auto;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.col1 .image {
+    background-image: url(../img/Img1.png);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 100%;
+}
+
+.col2 .image {
+    background-image: url(../img/Img2.png);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 100%;
+}
+
+.col3 .image {
+    background-image: url(../img/Img3.png);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 100%;
+}
+
+.main-text {
+    padding: 3rem 3.3rem 3rem 3.3rem;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+li {
+    list-style-type: none;
+}
