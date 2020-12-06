@@ -1,0 +1,144 @@
+@import url(reset.css);
+
+html {
+    font-size: 62.5%;
+}
+
+.page {
+    width: 144rem;
+    position: relative;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2.3rem;
+    font-size: 2rem;
+}
+
+.header {
+    height: 9rem;
+    background-color: #F8BFC7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-container {
+    margin: 0 0 0 5rem;
+}
+
+.link-container2 {
+    margin: 0 5rem 0 0;
+}
+
+.ht1, .ht2 {
+    margin: 0 3rem 0 0;
+}
+
+.header-text {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.order {
+    height: 64.3rem;
+    background-image: url(../img/background.png);
+}
+
+.orderform {
+    display: inline-block; /*Это я задал, чтобы обойти "схлопывание" margin'ов*/
+    width: 30rem;
+    background-color: #F8BFC7;
+    margin: 9rem 0 0 9rem;
+    padding: 3.3rem 0 2.9rem 3rem;
+    border: 3px solid white;
+    box-sizing: border-box;
+    border-radius: 2rem;
+}
+
+input {
+    display: block;
+    width: 24rem;
+    height: 2.3rem;
+    background-color: #F8BFC7;
+    border-top: none; 
+    border-right: none; 
+    border-left: none;
+    border-bottom: 0.1rem solid white;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 2.3rem;
+    font-size: 2rem;
+}
+
+/*Меняю цвет текста в placeholder'е*/
+::-webkit-input-placeholder {color:white;}
+::-moz-placeholder          {color:white;}
+:-ms-input-placeholder      {color:white;}
+
+input[type="text"] {
+    margin: 1.6rem 0 1.7rem 0;
+}
+
+input[type="email"] {
+    margin: 1.6rem 0 0 0;
+}
+
+label {
+    color: white;
+    font-weight: bold;
+}
+
+.button {
+    width: 20rem;
+    height: 6rem;
+    background-color: #FEB700;
+    margin: 1rem 0 12.1rem 14rem;
+    border: 3px solid white;
+    box-sizing: border-box;
+    border-radius: 3rem;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: lightgreen;
+    color: white;
+}
+
+.hero {
+    height: 20.1rem;
+    background-color: #336FD1;
+    text-align: center;
+}
+
+p {
+    display: inline-block; /*Это я задал, чтобы обойти "схлопывание" margin'ов*/
+    margin-top: 3rem;
+    color: #FEB700;
+    line-height: 5.7rem;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.footer {
+    height: 9rem;
+    width: 144rem;
+    background-color: #F8BFC7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-kontainer3 {
+    margin: 0 0 0 5rem;
+}
+
+.copyright {
+    margin: 0 5rem 0 0;
+}
+
+.footer-text, .copyright {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
