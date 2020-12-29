@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Order form</title>
+	<meta charset="utf-8">
+	<meta description="Page with a form to order a gift">
+	<meta keywords="order, form, gift">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="page">
+		<header class="header">
+		  <div class="link-container">
+		    <a class="header-text ht1" href="#" target="_blank">ПОСЫЛКА</a>
+		    <a class="header-text ht2" href="#" target="_blank">УПАКОВКА</a>
+        <a class="header-text ht3" href="#" target="_blank">ПОДПИСКА</a>
+      </div>
+      <div class="link-container2">
+        <a class="header-text" href="#" target="_blank">МЕНЮ</a>
+      </div>			
+		</header>
+		<main class="content">
+      <div class="content-container">
+        <section class="order">
+          <form class="form" action="https://formspree.io/f/xoqpkqqn" method="post">
+            <fieldset class="orderform">
+              <label for="name">Имя</label>
+                <input type="text" name="name" placeholder="Ира">
+              <label for="city">Город</label>
+                <input type="text" name="city" placeholder="Сочи">
+              <label for="gift">Подарок</label>
+                <input type="text" name="gift" placeholder="Книга в твёрдом переплёте">
+              <label for="email">Элетронная почта</label>
+                <input type="email" name="_replyto" placeholder="daykiller@gmail.com">
+            </fieldset>
+            <input class='button' type='submit' value='ОТПРАВИТЬ'>
+          </form>
+        </section>
+        <section class="hero">
+          <p>ВАША ПОСЫЛКА УЖЕ В ПУТИ!</p>
+        </section>
+      </div>   
+    </main>
+		<footer class="footer">
+      <div class="link-kontainer3">
+        <a class="footer-text" href="#" target="_blank">СЕКРЕТНЫЕ ПОСЫЛКИ ДЛЯ ДРУЗЕЙ</a>
+      </div>
+      <div class="copyright">© 2019</div>
+		</footer>
+	</div>
+</body>
+</html>

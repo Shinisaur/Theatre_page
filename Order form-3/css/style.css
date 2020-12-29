@@ -1,0 +1,161 @@
+
+:root {
+    --pink: #F8BFC7;
+    --yellow: #FEB700;
+    --green: lightgreen;
+    --blue: #336FD1;
+    --white: white;
+    --black: black;
+    --border-white: 3px solid white;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2.3rem;
+    font-size: 2rem;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    height: 9rem;
+    width: 100%;
+    background-color: var(--pink);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-container {
+    margin-left: 5rem;
+}
+
+.link-container2 {
+    margin-right: 5rem;
+}
+
+.ht1, .ht2 {
+    margin-right: 3rem;
+}
+
+.header-text {
+    text-decoration: none;
+    color: var(--black);
+    font-weight: bold;
+}
+
+.content {
+    margin-top: 9rem; /*Это для закрепленного хэдера*/
+}
+
+.order {
+    min-height: calc(100vh - 9rem);
+    background-image: url(../img/background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.orderform {
+    display: inline-block; /*Это я задал, чтобы обойти "схлопывание" margin'ов*/
+    width: 30rem;
+    background-color: var(--pink);
+    margin: 9rem 0 0 9rem;
+    padding: 3.3rem 0 2.9rem 3rem;
+    border: var(--border-white);
+    border-radius: 2rem;
+}
+
+input {
+    display: block;
+    width: 24rem;
+    background-color: var(--pink);
+    border-top: none; 
+    border-right: none; 
+    border-left: none;
+    border-bottom: 0.1rem solid var(--white);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*Меняю цвет текста в placeholder'е*/
+::-webkit-input-placeholder {color: var(--white);}
+::-moz-placeholder          {color: var(--white);}
+:-ms-input-placeholder      {color: var(--white);}
+
+input[type="text"] {
+    margin: 1.6rem 0 1.7rem 0;
+}
+
+input[type="email"] {
+    margin-top: 1.6rem;
+}
+
+label {
+    color: var(--white);
+    font-weight: bold;
+}
+
+.button {
+    width: 20rem;
+    height: 6rem;
+    background-color: var(--yellow);
+    margin: 1rem 0 12.1rem 14rem;
+    border: var(--border-white);
+    border-radius: 3rem;
+    color: var(--white);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--green);
+    color: var(--white);
+}
+
+.hero {
+    height: 20.1rem;
+    background-color: var(--blue);
+    text-align: center;
+}
+
+p {
+    display: inline-block; /*Это я задал, чтобы обойти "схлопывание" margin'ов*/
+    margin-top: 3rem;
+    color: var(--yellow);
+    line-height: 5.7rem;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.footer {
+    height: 9rem;
+    width: 100%;
+    background-color: var(--pink);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-kontainer3 {
+    margin-left: 5rem;
+}
+
+.copyright {
+    margin-right: 5rem;
+}
+
+.footer-text, .copyright {
+    text-decoration: none;
+    color: var(--white);
+    font-weight: bold;
+}
